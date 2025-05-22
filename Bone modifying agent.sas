@@ -99,7 +99,7 @@ PROC FREQ DATA=intern.intern ORDER=formatted;
           Format race race. bone_modifying_therapy yn.;
 
 PROC FREQ DATA = intern.INTERN order=formatted;
-          TABLES SMOKING_STATUS*bone_modifying_therapy /cHIsq;        
+          TABLES SMOKING_STATUS*bone_modifying_therapy /chisq;        
           Format SMOKING_STATUS smoking. bone_modifying_therapy yn.;   
  
 PROC FREQ DATA = intern.INTERN order = formatted;
